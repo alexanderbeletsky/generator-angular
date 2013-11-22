@@ -382,11 +382,11 @@ module.exports = function (grunt) {
       dist: {
         options: {
           curlyTags: {
-            base: '/dashboard/'
+            base: '/'
           }
         },
         files: {
-          '<%= yeoman.dist %>/index.html': '<%= yeoman.dist %>/index.html'
+          '<%%= yeoman.dist %>/index.html': '<%%= yeoman.dist %>/index.html'
         }
       }
     }
